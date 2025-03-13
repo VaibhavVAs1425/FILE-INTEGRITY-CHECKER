@@ -1,11 +1,11 @@
 # FILE INTEGRITY CHECKER
 
-**Company:** CODTECH IT Solutions
-**Intern Name:** Vaibhav Kumar Sahu
-**Intern ID:** CT08VYD
-**Domain:** Cybersecurity & Ethical Hacking
-**Duration:** 4 Weeks
-**Mentor:** Neela Santosh
+- **Company:** CODTECH IT Solutions
+- **Intern Name:** Vaibhav Kumar Sahu
+- **Intern ID:** CT08VYD
+- **Domain:** Cybersecurity & Ethical Hacking
+- **Duration:** 4 Weeks
+- **Mentor:** Neela Santosh
 
 ## Project Description
 
