@@ -1,0 +1,3 @@
+Total Income 20000 
+Total Expense 14000
+Total Savings 6000
