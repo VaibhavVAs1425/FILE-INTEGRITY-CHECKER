@@ -21,10 +21,15 @@ This project has been upgraded from a basic command-line script to a full **Grap
 ## 🚀 Key Features (Implemented)
 
 ✅ **Graphical User Interface (GUI):** User-friendly dashboard built with Tkinter. No need to type commands.
+
 ✅ **Real-Time Monitoring:** The system continuously watches the file in the background.
+
 ✅ **Instant Alert System:** Visual Red Alert on the dashboard immediately when file integrity is compromised.
+
 ✅ **Live Audit Logs:** Detailed activity log showing timestamps of when monitoring started, stopped, or when a file was modified.
+
 ✅ **Advanced Hashing:** Utilizes **SHA-256** algorithm for secure and reliable verification.
+
 ✅ **File Selection:** Easy "Browse" button to select any file from your system.
 
 ---
@@ -40,7 +45,12 @@ This project has been upgraded from a basic command-line script to a full **Grap
 
 ## 📸 Screenshots
 
-*(Yahan par tum apne Tool ke screenshots lagana. Ek jab status Green ho, aur ek jab status Red ho)*
+1. Monitoring when the text is safe.
+<img width="723" height="550" alt="Screenshot 2026-01-17 165031" src="https://github.com/user-attachments/assets/09d2340c-7c79-45a4-9219-f24cd6561d97" />
+
+2. Monitoring when the text is compromised
+<img width="732" height="565" alt="Screenshot 2026-01-17 165118" src="https://github.com/user-attachments/assets/6092bd24-42c4-464c-967a-7fe691be578b" />
+
 
 ---
 
@@ -67,6 +77,7 @@ This project has been upgraded from a basic command-line script to a full **Grap
    ```Bash
    python gui_checker.py
    ```
+   
 ### 🔮 Future Scope
 **Email Notifications:** Send an email alert to the admin when a file is hacked.
 
@@ -76,4 +87,5 @@ This project has been upgraded from a basic command-line script to a full **Grap
 
 ### 📜 License
 This project is developed for the CODTECH IT Solutions Internship program.
+
 
