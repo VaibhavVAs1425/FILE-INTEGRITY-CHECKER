@@ -59,15 +59,14 @@ This project has been upgraded from a basic command-line script to a full **Grap
    
 2. Navigate to the folder:
 
-   Bash
-
+   ```Bash
    cd FILE-INTEGRITY-CHECKER
-3. Run the script:
+   ```
+4. Run the script:
 
-   Bash
-
+   ```Bash
    python gui_checker.py
-   
+   ```
 ### 🔮 Future Scope
 **Email Notifications:** Send an email alert to the admin when a file is hacked.
 
@@ -77,3 +76,4 @@ This project has been upgraded from a basic command-line script to a full **Grap
 
 ### 📜 License
 This project is developed for the CODTECH IT Solutions Internship program.
+
