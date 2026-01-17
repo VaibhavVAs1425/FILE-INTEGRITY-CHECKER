@@ -1,91 +1,79 @@
-# FILE INTEGRITY CHECKER
+# 🛡️ File Integrity Checker (FIC)
+
+**Ensure the authenticity and reliability of your files with real-time monitoring.**
 
 - **Company:** CODTECH IT Solutions
 - **Intern Name:** Vaibhav Kumar Sahu
 - **Intern ID:** CT08VYD
 - **Domain:** Cybersecurity & Ethical Hacking
-- **Duration:** 4 Weeks
 - **Mentor:** Neela Santosh
 
-## Project Description
+---
 
-The File Integrity Checker is a Python-based project designed to ensure the authenticity and reliability of files by monitoring changes through hash value comparisons. This tool provides a simple yet effective way to verify that files have not been tampered with or corrupted, ensuring data integrity.
+## 📖 Project Description
 
-File integrity is a critical aspect of cybersecurity and data management, applicable in scenarios such as software distribution, secure backups, and forensic analysis. This project leverages Python’s `hashlib` library to calculate and compare cryptographic hashes, providing an interactive command-line interface (CLI) for users to monitor file integrity seamlessly.
+The **File Integrity Checker** is a cybersecurity tool designed to detect unauthorized modifications to critical files. It uses cryptographic hashing (SHA-256) to create a digital fingerprint of a file. If even a single byte of the file is changed, the fingerprint changes, and the system instantly alerts the user.
 
-## Task Details
+This project has been upgraded from a basic command-line script to a full **Graphical User Interface (GUI)** application with real-time logging and alerting capabilities.
 
-**Task Objective:** Develop a Python program that can monitor changes in files by calculating and comparing hash values.
+---
 
-**Key Functionalities:**
+## 🚀 Key Features (Implemented)
 
-* Calculating cryptographic hash values (SHA-256) of files.
-* Storing original hash values for comparison.
-* Comparing current hash values with stored original hash values.
-* Reporting any discrepancies indicating file modifications.
+✅ **Graphical User Interface (GUI):** User-friendly dashboard built with Tkinter. No need to type commands.
+✅ **Real-Time Monitoring:** The system continuously watches the file in the background.
+✅ **Instant Alert System:** Visual Red Alert on the dashboard immediately when file integrity is compromised.
+✅ **Live Audit Logs:** Detailed activity log showing timestamps of when monitoring started, stopped, or when a file was modified.
+✅ **Advanced Hashing:** Utilizes **SHA-256** algorithm for secure and reliable verification.
+✅ **File Selection:** Easy "Browse" button to select any file from your system.
 
-## Tools & Technologies Used
+---
 
-* Python 3.x: Required for running the Python script.
-* `hashlib` Library: Used for calculating cryptographic hash values.
-* `json` Library: Used for persistent storage of hash values.
-* `os` Library: Used for file operations.
+## 🛠️ Tools & Technologies
 
-## Editor/Platform Used
+- **Language:** Python 3.x
+- **GUI Framework:** Tkinter
+- **Libraries:** `hashlib` (Crypto), `os` (File Ops), `threading` (Background Tasks)
+- **Deployment:** PyInstaller (Converted to .exe)
 
-* VS Code / PyCharm / IDLE for development.
-* Command Prompt / Terminal for running the application.
+---
 
-## Features
+## 📸 Screenshots
 
-* **Hash Calculation:** Generates SHA-256 hash values for specified files.
-* **Hash Storage:** Stores original hash values in a JSON file for persistent storage.
-* **Integrity Verification:** Compares current hash values with stored original hash values to detect changes.
-* **Change Detection:** Reports any discrepancies indicating file modifications.
-* **Multi-file Monitoring:** Supports monitoring of multiple files.
-* **User-Friendly Output:** Provides clear messages indicating file integrity status.
+*(Yahan par tum apne Tool ke screenshots lagana. Ek jab status Green ho, aur ek jab status Red ho)*
 
-## Applicability
+---
 
-* **Software Distribution:** Ensures that downloaded software files are not corrupted or tampered with.
-* **Data Backup:** Verifies the integrity of backup files.
-* **Forensic Analysis:** Helps in detecting unauthorized file modifications.
-* **System Security:** Monitors critical system files for unauthorized changes.
+## ⚙️ How to Run
 
-## How to Run the Program
+### Option 1: Using the Executable (Recommended)
+1. Download the `FileIntegrityChecker.exe` from the Releases section.
+2. Double-click to run.
+3. Select a file and click **Start Monitoring**.
 
-1.  Ensure Python 3.x is installed on your system. You can verify by running:
+### Option 2: Running from Source Code
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/VaibhavVAs1425/FILE-INTEGRITY-CHECKER.git](https://github.com/VaibhavVAs1425/FILE-INTEGRITY-CHECKER.git)
+   ```
+   
+2. Navigate to the folder:
 
-    ```bash
-    python --version
-    ```
+   Bash
 
-2.  If Python is not installed, download it from [python.org](https://www.python.org/).
+   cd FILE-INTEGRITY-CHECKER
+3. Run the script:
 
-3.  Save the Python file as `file_integrity_checker.py`.
+   Bash
 
-4.  Open a terminal or command prompt and navigate to the directory where the file is saved.
+   python gui_checker.py
+   
+### 🔮 Future Scope
+**Email Notifications:** Send an email alert to the admin when a file is hacked.
 
-5.  Run the program using:
+**Multi-File Mode:** Monitor entire folders instead of single files.
 
-    ```bash
-    python file_integrity_checker.py
-    ```
+**Database Integration:** Store logs in a local database for long-term history.
 
-6.  Follow the on-screen output to monitor file integrity.
-
-## Future Enhancements
-
-* **Graphical User Interface (GUI):** Implement a GUI for easier file selection and monitoring.
-* **Scheduled Monitoring:** Add functionality to schedule periodic file integrity checks.
-* **Email Notifications:** Implement email notifications for detected file modifications.
-* **Advanced Hashing Algorithms:** Support other hashing algorithms like SHA-512.
-* **Logging:** Implement detailed logging of file integrity checks.
-
-## Conclusion
-
-This project provides a practical demonstration of file integrity monitoring using Python. It serves as a foundation for understanding cryptographic hashing and its applications in ensuring data security. By implementing these features, the project helps in developing essential skills applicable in cybersecurity, data management, and software development.
-
-## Output
-
-![Output ](https://github.com/user-attachments/assets/ecf71d87-5843-4eed-8508-a2b90efe2ccc)
+### 📜 License
+This project is developed for the CODTECH IT Solutions Internship program.
